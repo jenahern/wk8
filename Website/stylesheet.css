@@ -1,0 +1,163 @@
+
+/* Applies to the entire body of the HTML documents. */
+body {
+  margin: 10;
+  box-sizing: border-box;
+  padding: 25px;
+  background-color: rgb(33, 36, 33);
+  font-family: montserrat, sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+
+/* Heading Elements */
+h2 {
+  font-family: baloo, fantasy;
+  font-size: 42px;
+  color: white;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+h3 {
+  font-family: baloo, fantasy;
+  font-size: 28px;
+  color: white;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+h4 {
+  font-family: baloo, fantasy;
+  font-size: 21px;
+  color: rgb(250, 50, 160);
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+
+/* Image Elements */
+.media {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap; 
+}
+    
+.img {
+  max-width: 300px;
+  flex: 2;
+  padding: 10px;
+}
+
+.header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Main Menu */
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainMenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: teal;
+  color: rgb(250, 50, 160);
+  color: #fff;
+  
+}
+
+#mainMenu a:hover {
+  background-color: rgb(250, 50, 160);
+  color: #fff;
+}
+
+
+#mainMenu li {
+  flex: 1 1 0;
+}
+
+
+/* Homework List */
+.ol {
+  list-style: none;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 4px lightgrey;
+  padding: 10px;
+  border: 1px solid rgb(250, 50, 160);
+}
+
+#HW :hover {
+  background-color: teal;
+  color: #fff;
+}
+
+
+/* Form */
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-flow: row nowrap; 
+  border: 2px solid #eee;
+  padding: 20px;
+  background-color: lightgrey;
+  color:black
+}
+
+.button {
+  flex: flex-end;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 36px;
+  padding:  0 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(250, 50, 160);
+  color: white;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  }
+
+    /* Table */
+    table {
+      margin-left:auto; 
+      margin-right:auto;
+    }
+  
+    tr:nth-child(odd) {
+      background-color: #eee;
+      color: black;      
+    }
+    tr:nth-child(even) {
+      background-color: #555;
+      color: #fff;      
+    }
+  
+    th {
+      background-color: rgb(250, 50, 160);
+      color: #fff;  
+    }
+    td, th {
+      border: 1px solid #999;
+      padding: 5px;
+    }
